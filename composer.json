@@ -1,0 +1,35 @@
+{
+    "name": "rebzden/dynamic-input",
+    "description": "Yii2 widget to simplify dealing with tabular input",
+    "keywords": [
+        "rebzden",
+        "yii",
+        "yii2",
+        "yii 2",
+        "widget",
+        "active-form",
+        "form",
+        "dynamic-form"
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "paquettg/php-html-parser": "^1.7",
+        "yiisoft/yii2": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rebzden\\dynamicinput\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Kacper Brezdeń",
+            "email": "kacperbrezden@gmail.com"
+        }
+    ]
+}
