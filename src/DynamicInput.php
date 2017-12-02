@@ -1,17 +1,17 @@
 <?php
 
-namespace common\components\widgets\dynamicinput;
+namespace rebzden\dynamicinput;
 
-use common\components\helpers\Html;
-use common\components\widgets\ActiveField;
-use common\components\widgets\ActiveForm;
+
 use PHPHtmlParser\Dom;
 use PHPHtmlParser\Dom\HtmlNode;
 use PHPHtmlParser\Dom\Tag;
 use ReflectionClass;
 use yii\helpers\ArrayHelper;
+use yii\helpers\Html;
 use yii\helpers\Json;
-use yii\jui\InputWidget;
+use yii\widgets\ActiveForm;
+use yii\widgets\InputWidget;
 
 /**
  * Class DynamicInput
@@ -98,7 +98,7 @@ class DynamicInput extends InputWidget
      * @param $attribute
      * @param int $id
      * @param array $options
-     * @return \yii\bootstrap\ActiveField
+     * @return \yii\widgets\ActiveField
      */
     public function field($attribute, $id = 0, $options = [])
     {
